@@ -1,6 +1,5 @@
 import unittest
-from main import calculate  # Assuming the calculate function is in a file named calculate.py
-
+from main import calculate 
 class TestCalculate(unittest.TestCase):
     def test_basic_arithmetic(self):
         self.assertEqual(calculate("1 + 1"), 2)
