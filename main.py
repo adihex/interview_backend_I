@@ -71,7 +71,6 @@ def calculate(s: str) -> int:
 
     return value
 
-
 # Main program
 if __name__ == "__main__":
     while True:
